@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+
+img {
+  display: inline-block; }
+
+.ba-header {
+  background: #343c4e url(../img/bg-header.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  text-align: center;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative; }
+  .ba-header__title {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 56px;
+    line-height: 62px;
+    margin-bottom: 30px;
+    margin-top: -50px; }
+  .ba-header__subtitle {
+    font-size: 23px;
+    line-height: 42px; }
+  .ba-header__arrow {
+    font-size: 48px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -30px; }
+    .ba-header__arrow:hover {
+      opacity: 0.6;
+      -webkit-transition: all ease-in .2s;
+      -o-transition: all ease-in .2s;
+      transition: all ease-in .2s; }
+
+.ba-portfolio {
+  margin-top: 70px;
+  margin-bottom: 110px; }
+  .ba-portfolio .ba-row:after {
+    clear: both;
+    content: "";
+    display: table; }
+  .ba-portfolio__name {
+    text-align: center;
+    font-size: 46px;
+    line-height: 62px;
+    font-family: 'Merriweather', sans-serif; }
+  .ba-portfolio__item {
+    margin-bottom: 17px; }
+    .ba-portfolio__item img {
+      max-width: 100%;
+      height: auto; }
+  .ba-portfolio .col-4 {
+    width: 360px;
+    margin-right: 30px;
+    float: left; }
+    .ba-portfolio .col-4:last-child {
+      margin-right: 0; }
+  .ba-portfolio__image {
+    margin-top: 70px;
+    margin-bottom: 17px; }
+  .ba-portfolio__title {
+    font-size: 24px;
+    margin-bottom: 5px; }
+  .ba-portfolio__link {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000; }
+    .ba-portfolio__link:hover {
+      color: #0052c2;
+      -webkit-transition: all ease-in .2s;
+      -o-transition: all ease-in .2s;
+      transition: all ease-in .2s;
+      border-color: #0052c2; }
+  .ba-portfolio__description {
+    margin-top: 0;
+    margin-bottom: 15px; }
+  .ba-portfolio__site {
+    padding: 50px 0;
+    text-align: center; }
+    .ba-portfolio__site img {
+      margin-bottom: 50px;
+      width: 100%;
+      height: auto;
+      display: block; }
+
+.ba-footer {
+  background-color: #061634;
+  color: #6479a2;
+  padding-top: 90px;
+  padding-bottom: 190px; }
+  .ba-footer p {
+    margin-top: 0;
+    margin-bottom: 15px; }
+  .ba-footer .ba-row:after {
+    clear: both;
+    content: "";
+    display: table; }
+  .ba-footer .col-4 {
+    width: 360px;
+    margin-right: 30px;
+    float: left; }
+    .ba-footer .col-4:last-child {
+      margin-right: 0; }
+  .ba-footer__name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', sans-serif; }
+  .ba-footer__social {
+    color: #fff;
+    font-size: 16px;
+    line-height: 42px; }
+    .ba-footer__social--icons {
+      color: #fff;
+      font-size: 32px; }
+      .ba-footer__social--icons a {
+        text-decoration: none;
+        color: #fff;
+        margin-right: 20px; }
+        .ba-footer__social--icons a:last-child {
+          margin-right: 0; }
+        .ba-footer__social--icons a:hover {
+          color: #ffe400; }
+  .ba-footer .ba-button {
+    font-weight: 700;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.6px;
+    padding: 8px 23px;
+    margin-bottom: 13px; }
+    .ba-footer .ba-button:hover {
+      color: #061634;
+      background-color: #fff; }
+
+.ba-button__back {
+  font-weight: 700;
+  display: inline-block;
+  border: 2px solid #061634;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #061634;
+  letter-spacing: 1.6px;
+  padding: 8px 23px;
+  margin-bottom: 13px; }
+  .ba-button__back:hover {
+    color: #fff;
+    background-color: #061634; }
+
+/* Layout */
+.ba-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px; }
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }

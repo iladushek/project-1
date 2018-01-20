@@ -1,0 +1,48 @@
+
+
+@media (max-width: 1160px){
+
+  .ba-container{
+    width: 100%
+  }
+
+  .col-4{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding:0 15px 0 15px;
+    text-align: center;
+  }
+}
+
+.ba-header{
+  padding: 0 15px;
+
+  &__title{
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 15px;
+  }
+
+  &__subtitle{
+    font-size: 22px;
+    line-height: 38px;
+  }
+}
+
+
+
+
+.ba-portfolio{
+  padding-top: 40px;
+  padding-bottom: 50px;
+
+  &__title{
+    font-size: 36px;
+  }
+}
+
+.ba-footer{
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
